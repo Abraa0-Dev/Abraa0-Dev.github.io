@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>Abraão Santos - PortFolio</title>
+    <!-- Css -->
+    <link rel="stylesheet" href="css/extends.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <style>
+        ::selection{
+            background-color: var(--secondary-color);
+            color: var(--light-tertiary-color);
+        }
+        #social__icons img{
+            transition: all .2s;
+        }
+        #social__icons img:hover{
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <!-- Nav -->
+    <nav class="navbar">
+        <div class="navbar__content max-width mb-0">
+            <a href="/">
+                <h2 id="logo-nome">Abraão Santos_</h3>
+            </a>
+            <ul class="navbar__links">
+                <li><a href="#header">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#footer">Contato</a></li>
+            </ul>
+           <div class="navbar__mobile">
+                 <img src="assets/menu.svg" alt="menu" class="burguer">
+                 <ul class="mobile__links">
+                    <li><a href="#header">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#footer">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Header-->
+
+    <header class="max-width" id="header">
+        <div class="header__left">
+            <h1>Olá! Sou Abraão, desenvolvedor front-end.</h1>
+            <p>Embora tenha pouco tempo no mercado e conhecimento ainda
+                em desenvolvimento, gosto de desafios. Tenho grande
+                entusiasmo pelo desenvolvimento de interfaces web. Com 
+                curso técnico em desenvolvimento de sistemas 
+                e, em busca de uma oportunidade no mercado para crescer profissionalmente e contribuir 
+                com a instituição à qual for vinculado.
+            </p>
+
+            <a id="btn-more" href="#about" class="btn btn-primary">Saiba mais</a>
+        </div>
+        <div class="header__right">
+            <div class="header__image">
+                <img src="./assets/Abraao.png" alt="Abraão Santos" class="abraao">
+                <img src="./assets/abstract.svg" alt="background" class="background">
+            </div>
+        </div>
+    </header>
+
+    <!--Sobre-->
+    <section id="about" class="about max-width">
+        <div class="about__left">
+            <h2 class="secondary secondary-title">Além do código: quem sou eu?</h2>
+            <p>
+                Que tal se conectar comigo nas redes sociais abaixo e saber mais sobre meu trabalho?
+            </p>
+            <ul>
+                <li>
+                    <a id="social__icons" href="#"><img src="assets/instagram.svg" alt="Instagram"></a>
+                </li>
+                <li>
+                    <a id="social__icons" href="#"><img src="assets/linkedin.svg" alt="Linkedin"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="about__right">
+            <h3 class="tertiary-title mb-m">Desenvolvedor Web front-end, 
+                entusiasmado por tecnologia e soluções criativas</h3>
+               <p>Olá, sou Abraão Santos, desenvolvedor Web Front-End. Embora tenha
+                pouca experiência no mercado, tenho grande entusiasmo pelo que
+                faço. Desenvolvi diversos projetos sozinho, para agregar conhecimento,
+                e atualmente trabalho com estruturas de rede, pois sou
+                técnico em Desenvolvimento de Sistemas. No entanto,
+                busco uma vaga no mercado de trabalho com desenvolvimento front-end. Quero
+                além de estar na área que gosto, fornecer a melhor experiência para os usuários
+                com interfaces web. 
+               </p>
+               <p>
+                Gosto de desafios, pois eles nos trazem conhecimento e ampliam as possibilidades
+                de crescimento e aprendizado. 
+               </p>
+        </div>
+    </section>
+    <!--Skills-->
+    <section id="skills" class="skills">
+        <div class="skills__content max-width">
+            <h2 class="tertiary-title">Minha caixa de ferramentas</h2>
+            <p class="description">
+                Descubra as habilidades e ferramentas que me permitem criar e fornecer soluções
+                inovadoras aos usuários.
+            </p>
+            <ul>
+                <li class="skills__item">
+                    <div class="image-container">
+                        <img src="assets/notebook.png" alt="Desenvolvimento Web">
+                    </div>
+                    <h3>Desenvolvimento Web</h3>
+                    <p>Experiência em desenvolvimento web e react-native com foco em interfaces.</p>
+                </li>
+                <li class="skills__item">
+                    <div class="image-container">
+                        <img src="assets/colors.png" alt="Web Design">
+                    </div>
+                    <h3>Web Design</h3>
+                    <p>Habilidade de criar layouts modernos responsivos, 
+                    que proporcionarão uma excelente experiência ao usuário.</p>
+                </li>
+                <li class="skills__item">
+                    <div class="image-container">
+                        <img src="assets/files.png" alt="Gerenciamento de Versões">
+                    </div>
+                    <h3>Gerenciamento de Versões</h3>
+                    <p>Experiência em ferramentas de gerenciamento de versão para controle de projetos.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!--Projects-->
+
+    <section class="projects max-width" id="projects">
+        <div class="projects__content">
+            <h2 class="secondary-title">Projetos em Destaque</h2>
+            <p>Abaixo seguem os links de alguns dos meus projetos recentes</p>
+        </div>
+
+        <ul>
+            <li>
+                <div class="image">
+                    <img src="assets/vector-laptop.png" alt="Gerenciamento de tarefas" style="width: 565px;">
+                </div>
+                <div class="projects__info">
+                    <h3 class="tertiary-title">Coming Soon!</h3>
+                    <p>
+                        Em breve, mostrarei alguns dos projetos em que tenho trabalhado.
+                        Fique ligado!
+                    </p>
+                    <a href="#">Leia mais &rarr;</a>
+                </div>
+            </li>
+            <li class="projects__reversed-list">
+                <div class="image">
+                    <img src="assets/ecommerce.png" alt="Ecommerce">
+                </div>
+                <div class="projects__info">
+                    <h3 class="tertiary-title">Coming Soon!</h3>
+                    <p>
+                        Em breve, mostrarei alguns dos projetos em que tenho trabalhado.
+                        Fique ligado!
+                    </p>
+                    <a href="#">Leia mais &rarr;</a>
+                </div>
+            </li>
+            <li>
+                <div class="image">
+                    <img src="assets/task-manager.png" alt="Gerenciamento de tarefas">
+                </div>
+                <div class="projects__info">
+                    <h3 class="tertiary-title">Coming Soon!</h3>
+                    <p>
+                        Em breve, mostrarei alguns dos projetos em que tenho trabalhado.
+                        Fique ligado!
+                    </p>
+                    <a href="#">Leia mais &rarr;</a>
+                </div>
+            </li>
+            <li class="projects__reversed-list">
+                <div class="image">
+                    <img src="assets/delivery.png" alt="Ecommerce">
+                </div>
+                <div class="projects__info">
+                    <h3 class="tertiary-title">Coming Soon!</h3>
+                    <p>
+                        Em breve, mostrarei alguns dos projetos em que tenho trabalhado.
+                        Fique ligado!
+                    </p>
+                    <a href="#">Leia mais &rarr;</a>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!--Footer-->
+    <footer id="footer">
+        <div class="footer__content max-width mb-0">
+            <h2 class="tertiary-title mb-s">Vamos conversar?</h2>
+            <p class="mb-m">
+                Ficarei feliz em saber mais sobre seus projetos e trabalharmos juntos para os tornar realidade!
+            </p>
+            <div class="footer__contact mb-m">
+                <span class="mb-m">abraao.work22@gmail.com</span>
+                <span>(81) 9 9108-8897</span>
+            </div>
+            <ul class="mb-1">
+                <li>
+                    <a id="social__icons" href="#"><img src="assets/instagram.svg" alt="Instagram"></a>
+                </li>
+                <li>
+                    <a id="social__icons" href="#"><img src="assets/linkedin.svg" alt="Linkedin"></a>
+                </li>
+            </ul>
+            <p class="footer__copyright">
+                &copy; 2023 Abraão Santos. Todos os direitos reservados.
+            </p>
+        </div>
+    </footer>
+
+
+    <script src="scripts/index.js"></script>
+</body>
+</html>
